@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.b {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 400px;
+    height: 90vh;
+    padding: 60px 35px 35px 35px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    background-color: #f8f8f8;
+    border-radius: 40px;
+}
+
+.logo {
+    background: url(../img/logo.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+}
+
+.title {
+    text-align: center;
+    padding-top: 24px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    color: tomato;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.sub__title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.input__container {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+
+.input__container input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 50px;   
+}
+.username, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+}
+
+.login__bnt {
+    width: 100%;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    background: tomato;
+    font-family: 'Lato' sans-serif;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.login__bnt:hover {
+    background: #2fdbb6;
+}
+
+.login__bnt:active {
+    background: #1da88a;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
